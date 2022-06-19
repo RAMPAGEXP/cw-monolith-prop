@@ -19,8 +19,7 @@ jobs:
           target: wasm32-unknown-unknown
           override: true
 
-      - name: Grant Permissions
-        run: chmod +x scripts/submit_gov.sh
-        
       - name: Test gov prop
-        run: ./scripts/submit_gov.sh rxp16g2rahf5846rxzp3fwlswy08fz8ccuwk03k57y
+        run: |
+          chmod a+x ./scripts/submit_gov.sh
+          ./scripts/submit_gov.sh rxp16g2rahf5846rxzp3fwlswy08fz8ccuwk03k57y
