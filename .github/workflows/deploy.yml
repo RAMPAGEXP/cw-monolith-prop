@@ -19,5 +19,8 @@ jobs:
           target: wasm32-unknown-unknown
           override: true
 
+      - name: Grant Permissions
+        run: chmod +x scripts/deploy.sh
+        
       - name: Test deployment
         run: ./scripts/deploy.sh rxp16g2rahf5846rxzp3fwlswy08fz8ccuwk03k57y
