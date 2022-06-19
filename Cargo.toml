@@ -1,6 +1,6 @@
 [package]
 name = "cw-monolith-prop"
-version = "0.3.0"
+version = "0.0.1-alpha"
 authors = ["Alex Lynham <alex@lynh.am>"]
 edition = "2018"
 

@@ -1,6 +1,6 @@
 # Verifying the Monolith Prop Smart Contract
 
-The source code for the Monolith prop smart contract is available in the [cw-monolith-prop repo](https://github.com/CosmosContracts/cw-monolith-prop).
+The source code for the Monolith prop smart contract is available in the [cw-monolith-prop repo](https://github.com/RAMPAGEXP/cw-monolith-prop).
 
 To verify the code deployed on chain you will need `docker` and `rxpd` installed on your machine.
 
@@ -8,9 +8,9 @@ To verify the code deployed on chain you will need `docker` and `rxpd` installed
 
 Clone the repo and enter the directory:
 ```bash
-git clone https://github.com/CosmosContracts/cw-monolith-prop
+git clone https://github.com/RAMPAGEXP/cw-monolith-prop
 cd cw-monolith-prop
-git checkout v0.3.0
+git checkout v0.0.1-alpha
 ```
 
 Compile the contracts:

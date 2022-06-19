@@ -188,7 +188,7 @@ dependencies = [
 
 [[package]]
 name = "cw-monolith-prop"
-version = "0.3.0"
+version = "0.0.1-alpha"
 dependencies = [
  "anyhow",
  "cosmwasm-schema",
