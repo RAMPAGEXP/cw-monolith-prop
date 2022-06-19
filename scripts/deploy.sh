@@ -6,7 +6,7 @@ then
   exit
 fi
 
-IMAGE_TAG=${2:-"v6.0.0"}
+IMAGE_TAG=${2:-"v1.0.0-alpha"}
 CONTAINER_NAME="rxp_cw_monolith_prop"
 BINARY="docker exec -i $CONTAINER_NAME rxpd"
 DENOM='urxpx'
